@@ -75,7 +75,9 @@ public:
         amount_setting();
         date_validation();
         ctg_setting();
-        incomes.push_back(*this);
+        incomes.push_back(*this); // (2) так я знаю шо це хуйова практика
+                                   // і тут копіюється все але я не знаю поки 
+                                   // як мені по іншому передати інстанс класу без імені
     }
 
     void name_setting() {
