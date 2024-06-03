@@ -79,12 +79,12 @@ int main() {
 }
 ```
 ## Dependencies
-- #include <iostream>
-- #include <string>
-- #include <vector>
-- #include <set>
-- #include <limits>
-- #include <iomanip>
+#include "iostream"<br>
+#include "string"<br>
+#include "vector"<br>
+#include "set"<br>
+#include "limits"<br>
+#include "iomanip"
 
 ## Compilation
 To compile the program, use a C++ compiler such as g++:
